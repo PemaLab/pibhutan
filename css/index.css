@@ -1122,3 +1122,47 @@ iframe {
 .new-button {
   margin-left: auto;
 }
+
+/*--------------------------Advisors Page--------------------------*/
+
+.advisors-profile {
+  width: 100%;
+}
+.advisors-profile-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 8% 10% 3% 10%;
+  gap: 5%;
+}
+.advisors-profile-left {
+  width: 100%;
+}
+.advisors-profile-left > img {
+  width: 30vw;
+  box-shadow: 11px 10px 0px 0px #3f5ca5;
+}
+.advisors-profile-right h2 {
+  color: #f4a351;
+  font-family: "Righteous", sans-serif;
+  padding-bottom: 3%;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+}
+.advisors-profile-right h1 {
+  font-family: "Righteous", sans-serif;
+  padding-bottom: 3%;
+  font-size: 3vw;
+}
+.advisors-profile p {
+  font-family: var(--p-font);
+  line-height: var(--p-line-height);
+}
+.advisors-profile p a {
+  text-decoration: none;
+  color: #ff6600;
+}
+.advisors-profile-last {
+  padding: 1% 8%;
+}
