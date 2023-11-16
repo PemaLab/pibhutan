@@ -102,7 +102,7 @@ li {
 .home-first-paragraph p {
   width: 70%;
   padding: 0 30px 50px 30px;
-  font-size: 15px;
+  font-size: 2vw;
   color: white;
   font-family: var(--p-font);
   line-height: 1.5;
@@ -119,7 +119,7 @@ li {
   gap: 3%;
 }
 .home-second-divs {
-  width: 25%;
+  width: 30%;
   border: 2px solid black;
   margin: -10% 0;
   text-align: center;
@@ -138,6 +138,7 @@ li {
   margin: 10% 0 0 0;
   line-height: 1.5;
   font-family: var(--p-font);
+  font-size: 2vw;
 }
 .home-third {
   width: 100%;
@@ -153,11 +154,12 @@ li {
 }
 .home-third-first h1 {
   margin-bottom: 5%;
-  font-size: 4rem;
+  font-size: 5vw;
 }
 .home-third-first p {
   line-height: 1.5;
   font-family: var(--p-font);
+  font-size: 2vw;
 }
 .home-third-second {
   background-size: cover;
@@ -174,15 +176,18 @@ li {
   font-size: 2rem;
   margin-bottom: 5%;
   text-align: right;
+  font-size: 3vw;
 }
 .home-third-second p {
   text-align: center;
   line-height: 1.5;
   margin: 5% 0;
   font-family: var(--p-font);
+  font-size: 2vw;
 }
 .home-third-second a {
   border-radius: 5px;
+  font-size: 2vw;
   border: 0.5px solid black;
   float: right;
   text-decoration: none;
@@ -203,24 +208,28 @@ li {
   padding: 10% 3%;
 }
 .home-fourth-first img {
-  width: 110%;
+  width: 100%;
 }
 .home-fourth-second {
   padding-left: 10%;
 }
 .home-fourth-second h3 {
   color: #f4a351;
+  font-size: 2vw;
 }
 .home-fourth-second h1 {
   margin: 2% auto;
+  font-size: 4vw;
 }
 .home-fourth-second p {
   line-height: 2;
   margin: 5% auto;
   font-family: var(--p-font);
+  font-size: 2vw;
 }
 .home-fourth-second a {
   border-radius: 5px;
+  font-size: 2vw;
   text-decoration: none;
   color: white;
   padding: 2%;
@@ -251,14 +260,17 @@ li {
 .home-fifth-first h3 {
   color: #f4a351;
   font-weight: lighter;
+  font-size: 2vw;
 }
 .home-fifth-first h1 {
   font-size: 50px;
   font-weight: lighter;
+  font-size: 5vw;
 }
 .home-fifth-first p {
   line-height: 1.5;
   font-family: var(--p-font);
+  font-size: 2vw;
 }
 .home-fifth-second {
   width: 100%;
@@ -571,11 +583,13 @@ footer {
   align-items: center;
   background: #3d59a1;
   padding: 2% 5%;
+  margin-top: 5%;
 }
 footer > p {
   font-family: var(--p-font);
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+  margin-left: 3%;
 }
 .footer-links {
   display: inline-block;
@@ -687,7 +701,6 @@ footer > p {
   background-color: #3d59a1;
   border-radius: 10px;
   border: none;
-  cursor: pointer;
 }
 .custom-amount {
   font-size: 2vw !important;
@@ -1038,6 +1051,7 @@ input::-webkit-inner-spin-button {
 .donate-page-second p {
   font-family: var(--p-font);
   margin: 3% 0;
+  font-size: 2vw;
 }
 /*---------------------------Resources Page------------------------*/
 
@@ -1123,7 +1137,7 @@ iframe {
   margin-left: auto;
 }
 
-/*--------------------------Advisors Page--------------------------*/
+/*------------------------Advisors/Directors/Staffs Profile Page---------------------*/
 
 .advisors-profile {
   width: 100%;
@@ -1154,6 +1168,9 @@ iframe {
   font-family: "Righteous", sans-serif;
   padding-bottom: 3%;
   font-size: 3vw;
+}
+.advisors-profile-right p:nth-child(4) {
+  margin-top: 3%;
 }
 .advisors-profile p {
   font-family: var(--p-font);
